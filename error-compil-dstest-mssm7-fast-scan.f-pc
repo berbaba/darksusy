@@ -1,0 +1,12 @@
+ gfortran dstest-mssm7-fast-scan.f -o dstest-mssm7-fast-scan-A -I .../darksusy-5.0.6/include/
+dstest-mssm7-fast-scan.f:263.15:
+
+ 51   format(f,a,f,a,f,a,f,a,f,a,f,a,f,a,e,a,f,a,e,a,f,a,f,a,e,a,f,a,   
+               1
+Error: Nonnegative width required in format string at (1)
+dstest-mssm7-fast-scan.f:255.17:
+
+      write(41,51) mu,' ',m2,' ',ma,' ',tanbe,' ',mass2q(3),            
+                 1
+Error: FORMAT label 51 at (1) not defined
+
